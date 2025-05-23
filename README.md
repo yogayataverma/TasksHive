@@ -61,4 +61,4 @@ TasksHive - A task management application built with React and Node.js.
 
 ## Live Demo
 
-Check out the live application: [TaskHive]('https://t-hive.netlify.app')
+Check out the live application: [TaskHive](https://t-hive.netlify.app)
