@@ -39,7 +39,7 @@ export default function TaskItem({
 
   return (
     <div
-      className={`mb-2 p-4 rounded-lg border flex items-center justify-between transition-colors ${
+      className={`mb-2 p-3 sm:p-4 rounded-lg border flex flex-col sm:flex-row sm:items-center gap-3 transition-colors ${
         task.isCompleted 
           ? 'bg-gray-800/50 border-gray-700' 
           : 'bg-gray-800 border-gray-700'
@@ -71,7 +71,7 @@ export default function TaskItem({
         )}
       </div>
 
-      <div className="flex gap-2 text-sm">
+      <div className="flex flex-wrap gap-2 text-sm justify-end">
         {isEditing ? (
           <>
             <button
